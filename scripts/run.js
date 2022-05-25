@@ -11,6 +11,8 @@ const main = async () => {
 
     const domainOwner = await domainContract.getAddress("voltz");
     console.log("Owner of domain:", domainOwner);
+
+    
 };
 
 const runMain = async () => {
