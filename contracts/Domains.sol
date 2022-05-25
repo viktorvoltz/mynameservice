@@ -7,6 +7,8 @@ import "hardhat/console.sol";
 contract Domains {
 
     mapping(string => address) public domains;
+
+    mapping(string => string) public records;
   constructor() {
     console.log("THIS IS MY DOMAINS CONTRACT. NICE.");
   }
