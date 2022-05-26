@@ -6,10 +6,10 @@ const main = async () => {
     console.log("Contract deployed to:", domainContract.address);
     console.log("Contract deployed by:", owner.address);
 
-    let txn = await domainContract.register("mortal", { value: hre.ethers.utils.parseEther('0.1') });
+    let txn = await domainContract.register("chi", { value: hre.ethers.utils.parseEther('0.5') });
     await txn.wait()
 
-    const domainOwner = await domainContract.getAddress("mortal");
+    const domainOwner = await domainContract.getAddress("chi");
     console.log("Owner of domain:", domainOwner);
 
     const balance = await hre.ethers.provider.getBalance(domainContract.address);
