@@ -6,7 +6,7 @@ const main = async () => {
     console.log("Contract deployed to:", domainContract.address);
     console.log("Contract deployed by:", owner.address);
 
-    let txn = await domainContract.register("chi", { value: hre.ethers.utils.parseEther('0.5') });
+    let txn = await domainContract.register("chi", { value: hre.ethers.utils.parseEther('0.1') });
     await txn.wait()
 
     const domainOwner = await domainContract.getAddress("chi");
