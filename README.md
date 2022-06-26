@@ -1,6 +1,5 @@
-# Basic Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+voltz domains at
+https://mumbai.polygonscan.com/address/0x8c328B7f4856438FbeAa59f9e28F6fDd98B4588d
 
 Try running some of the following tasks:
 
