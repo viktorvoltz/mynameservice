@@ -30,9 +30,9 @@ contract Domains is ERC721URIStorage {
     require(len > 0);
     //shorter domain names are more expensive 🙃 
     if (len == 3) {
-      return 3 * 10**17;
+      return 1 * 10**17;
     } else if (len == 4) {
-      return 2 * 10**17; 
+      return 1 * 10**17; 
     } else {
       return 1 * 10**17;
     }
